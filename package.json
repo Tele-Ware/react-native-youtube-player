@@ -19,8 +19,7 @@
     "lint": "eslint --ext .js,.ts,.tsx .",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn && yarn example",
-    "prepare": "bob build"
+    "bootstrap": "yarn && yarn example"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
